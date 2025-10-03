@@ -1,28 +1,28 @@
 body { /* Estilos generales para toda la página */
-  font-family: Arial, sans-serif; /* Fuente de texto principal */
+  font-family: Georgia, serif; /* Fuente de texto principal */
   margin: 0; /* Elimina los márgenes por defecto */
   padding: 0; /* Elimina los rellenos por defecto */
-  background: #f4f4f9; /* Color de fondo gris claro */
+  background: #ecec53; /* Color de fondo amarillo claro */
 }
 
 header { /* Estilos para el encabezado */
-  background: #333; /* Fondo gris oscuro */
+  background: #808080; /* Fondo gris oscuro */
   color: white; /* Texto en color blanco */
   text-align: center; /* Centra el texto horizontalmente */
   padding: 1rem; /* Relleno interno de 1 unidad rem */
 }
 
 main { /* Estilos para el contenido principal */
-  max-width: 800px; /* Ancho máximo de 800px */
-  margin: 20px auto; /* Centra el contenido y deja 20px de margen arriba y abajo */
+  max-width: 900px; /* Ancho máximo de 800px */
+  margin: 19px auto; /* Centra el contenido y deja 20px de margen arriba y abajo */
   background: white; /* Fondo blanco */
   padding: 20px; /* Espaciado interno de 20px */
-  border-radius: 10px; /* Bordes redondeados */
+  border-radius: 11px; /* Bordes redondeados */
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra ligera alrededor */
 }
 
 h2 { /* Estilos para subtítulos */
-  color: #333; /* Texto en gris oscuro */
+  color: #f0be77; /* Texto en naranja claro */
 }
 
 .comment-form { /* Estilos para el formulario de comentarios */
@@ -47,15 +47,15 @@ h2 { /* Estilos para subtítulos */
 }
 
 .comment-form button:hover { /* Efecto cuando se pasa el ratón sobre el botón */
-  background: #555; /* Cambia a gris más claro */
+  background: #e7ebda; /* Cambia a blanco grisaceo */
 }
 
 .comment-form .btn-delete { /* Botón de borrar comentarios */
-  background: darkred; /* Fondo rojo oscuro */
+  background: darkred; /* Fondo rojo pardo */
 }
 
 .comment-form .btn-delete:hover { /* Efecto hover para el botón de borrar */
-  background: red; /* Cambia a rojo brillante */
+  background: red; /* Cambia a rojo oscuro */
 }
 
 .comment { /* Estilos para cada comentario publicado */
