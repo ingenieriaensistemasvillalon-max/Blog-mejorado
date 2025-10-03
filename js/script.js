@@ -16,8 +16,6 @@ if (pass !== passwordCorrecta) {
     comentariosGuardados.forEach(c => mostrarComentario(c));
    }
 }
-
-
 function agregarComentario() { // Función que se ejecuta al hacer clic en "Publicar comentario"
   const nombre = document.getElementById('nombre').value.trim(); // Obtiene el nombre del input y elimina espacios extra
   const mensaje = document.getElementById('mensaje').value.trim(); // Obtiene el mensaje del textarea y elimina espacios extra
