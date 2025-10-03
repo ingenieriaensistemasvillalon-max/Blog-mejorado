@@ -8,7 +8,7 @@ let pass = promt("introduce la contraseña para acceder al blog:");
 const passwordCorrecta = "2312";
 
 if (pass !== passwordCorrecta) {
-  document.body.innerHTML = "<h1>Acceso denegado 🔒🤨✋</h1>";
+  document.body.innerHTML = "<h1>Acceso denegado ❌</h1>";
 } else {
   //Solo si la contraseña es correcta carga los comentarios guardados 
   window.onload = fuction() {
