@@ -3,19 +3,19 @@ window.onload = function() { // Se ejecuta automáticamente cuando la página te
   const comentariosGuardados = JSON.parse(localStorage.getItem('comentarios')) || []; // Obtiene los comentarios guardados en localStorage o un array vacío si no hay
   comentariosGuardados.forEach(c => mostrarComentario(c)); // Recorre cada comentario y lo muestra en pantalla
 }
-function verificarPassword() {
-  const claveCorrecta = "23120"; // 🔑 Aquí defines tu contraseña
-  const input = document.getElementById("password").value;
-  const mensaje = document.getElementById("mensaje");
+// ----BLOQUE DE SEGURIDAD----
+let pass = prompt("introduce la contraseña para acceder al blog:");
+const passwordCorrecta = "2312";
 
-  if (input === claveCorrecta) {
-    document.getElementById("login").style.display = "none";
-    document.getElementById("contenido").style.display = "block";
-  } else {
-    mensaje.textContent = "❌ Contraseña incorrecta. Intenta de nuevo.";
-  }
+if (pass !== passwordCorrecta) {
+  document.body.innerHTML = "<h1>Acceso denegado ❌</h1>";
+} else {
+  //Solo si la contraseña es correcta carga los comentarios guardados 
+  window.onload = function() {
+    const comentariosGuardados = JSON.parse(localStorage.getItem('comentarios')) || [];
+    comentariosGuardados.forEach(c => mostrarComentario(c));
+   }
 }
-
 function agregarComentario() { // Función que se ejecuta al hacer clic en "Publicar comentario"
   const nombre = document.getElementById('nombre').value.trim(); // Obtiene el nombre del input y elimina espacios extra
   const mensaje = document.getElementById('mensaje').value.trim(); // Obtiene el mensaje del textarea y elimina espacios extra
