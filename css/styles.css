@@ -1,75 +1,76 @@
-body { /* Estilos generales para toda la página */
-  font-family: Georgia, serif; /* Fuente de texto principal */
-  margin: 2; /* Elimina los márgenes por defecto */
-  padding:4; /* Agrega los rellenos por defecto */
-  background: #451313; /* Color de fondo rojo oscuro */
+body {
+  font-family: Georgia, serif;
+  margin: 2px;
+  padding: 4px;
+  background: #451313;
 }
 
-header { /* Estilos para el encabezado */
-  background: #043959; /* Fondo azul oscuro */
-  color: white; /* Texto en color blanco */
-  text-align: center; /* Centra el texto horizontalmente */
-  padding: 1rem; /* Relleno interno de 1 unidad rem */
+header {
+  background: #043959;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
 
-main { /* Estilos para el contenido principal */
-  max-width: 700px; /* Ancho máximo de 700px */
-  margin: 29px auto; /* Centra el contenido y deja 33px de margen arriba y abajo */
-  background: white; /* Fondo blanco */
-  padding: 19px; /* Espaciado interno de 22px */
-  border-radius: 18px; /* Bordes redondeados */
-  box-shadow: 0 8px 9px rgba(0,0,0,0.7); /* Sombra ligera alrededor */
+main {
+  max-width: 700px;
+  margin: 29px auto;
+  background: white;
+  padding: 19px;
+  border-radius: 18px;
+  box-shadow: 0 8px 9px rgba(0,0,0,0.7);
 }
 
-h2 { /* Estilos para subtítulos */
-  color: #211600; /* Texto en naranja claro */
+h2 {
+  color: #211600;
 }
 
-.comment-form { /* Estilos para el formulario de comentarios */
-  margin-bottom: 27px; /* Deja espacio debajo del formulario */
+.comment-form {
+  margin-bottom: 27px;
 }
 
-.comment-form input, 
-.comment-form textarea, 
-.comment-form button { /* Estilos compartidos por inputs, textarea y botones dentro del formulario */
-  width: 70%; /* Ocupar todo el ancho disponible */
-  margin: 7px 3; /* Espacio vertical entre elementos */
-  padding: 17px; /* Relleno interno */
-  border-radius: 5px; /* Bordes redondeados */
-  border: 6px solid #f5e6ab; /* Borde amarillo oscuro */
+.comment-form input,
+.comment-form textarea,
+.comment-form button {
+  width: 70%;
+  margin: 7px 3px;
+  padding: 17px;
+  border-radius: 5px;
+  border: 6px solid #f5e6ab;
 }
 
-.comment-form button { /* Estilos específicos para los botones */
-  background: #3c434a; /* Fondo gris oscuro */
-  color: white; /* Texto en blanco */
-  border: 2 ; /* con borde */
-  cursor: cell; /* Cursor que indica que se pueden seleccionar celdas */
+.comment-form button {
+  background: #3c434a;
+  color: white;
+  border: 2px solid #3c434a;
+  cursor: pointer;
 }
 
-.comment-form button:hover { /* Efecto cuando se pasa el ratón sobre el botón */
-  background: #8c8f94; /* Cambia a gris */
+.comment-form button:hover {
+  background: #8c8f94;
 }
 
-.comment-form .btn-delete { /* Botón de borrar comentarios */
-  background: darkred; /* Fondo rojo pardo */
+.comment-form .btn-delete {
+  background: darkred;
 }
 
-.comment-form .btn-delete:hover { /* Efecto hover para el botón de borrar */
-  background: red; /* Cambia a rojo oscuro */
+.comment-form .btn-delete:hover {
+  background: red;
 }
 
-.comment { /* Estilos para cada comentario publicado */
-  border-bottom: 3px solid #ddd; /* Línea separadora debajo */
-  padding: 13px 4; /* Espaciado interno arriba y abajo */
+.comment {
+  border-bottom: 3px solid #ddd;
+  padding: 13px 4px;
 }
 
-.comment img { /* Estilos para las imágenes dentro de los comentarios */
-  max-width: 100px; /* Limita el ancho máximo a 100px */
-  display: block; /* La imagen se comporta como bloque */
-  margin-top: 12px; /* Espacio superior */
-  border-radius: 8px; /* Bordes redondeados */
+.comment img {
+  max-width: 100px;
+  display: block;
+  margin-top: 12px;
+  border-radius: 8px;
 }
 
-.comment medium { /* Estilos para la fecha de los comentarios */
-  color: green; /* Texto en color verde */
+/* si usas <small> o <span class="date"> dentro del comentario */
+.comment small {
+  color: green;
 }
