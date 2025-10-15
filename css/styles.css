@@ -36,18 +36,18 @@ h2 { /* Estilos para subtítulos */
   margin: 7px 3; /* Espacio vertical entre elementos */
   padding: 17px; /* Relleno interno */
   border-radius: 5px; /* Bordes redondeados */
-  border: 6px solid #f5e6ab; /* Borde yellow 5 */
+  border: 6px solid #f5e6ab; /* Borde amarillo 5 */
 }
 
 .comment-form button { /* Estilos específicos para los botones */
-  background: #3c434a; /* Fondo gray 70 */
+  background: #3c434a; /* Fondo gris 70 */
   color: white; /* Texto en blanco */
   border: 2 ; /* con borde */
   cursor: cell; /* Cursor que indica que se pueden seleccionar celdas */
 }
 
 .comment-form button:hover { /* Efecto cuando se pasa el ratón sobre el botón */
-  background: #8c8f94; /* Cambia a gray 30 */
+  background: #8c8f94; /* Cambia a gris 30 */
 }
 
 .comment-form .btn-delete { /* Botón de borrar comentarios */
