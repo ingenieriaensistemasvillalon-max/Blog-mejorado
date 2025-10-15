@@ -32,7 +32,7 @@ h2 { /* Estilos para subtítulos */
 .comment-form input, 
 .comment-form textarea, 
 .comment-form button { /* Estilos compartidos por inputs, textarea y botones dentro del formulario */
-  width: 80%; /* Ocupar todo el ancho disponible */
+  width: 70%; /* Ocupar todo el ancho disponible */
   margin: 7px 3; /* Espacio vertical entre elementos */
   padding: 17px; /* Relleno interno */
   border-radius: 5px; /* Bordes redondeados */
