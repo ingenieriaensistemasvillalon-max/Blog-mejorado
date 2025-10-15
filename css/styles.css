@@ -64,7 +64,7 @@ h2 { /* Estilos para subtítulos */
 }
 
 .comment img { /* Estilos para las imágenes dentro de los comentarios */
-  max-width: 100px; /* Limita el ancho máximo a 200px */
+  max-width: 100px; /* Limita el ancho máximo a 100px */
   display: block; /* La imagen se comporta como bloque */
   margin-top: 12px; /* Espacio superior */
   border-radius: 8px; /* Bordes redondeados */
