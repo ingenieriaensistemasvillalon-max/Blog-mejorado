@@ -70,6 +70,6 @@ h2 { /* Estilos para subtítulos */
   border-radius: 8px; /* Bordes redondeados */
 }
 
-.comment small { /* Estilos para la fecha de los comentarios */
+.comment medium { /* Estilos para la fecha de los comentarios */
   color: green; /* Texto en color verde */
 }
