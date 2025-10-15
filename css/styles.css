@@ -2,7 +2,7 @@ body { /* Estilos generales para toda la página */
   font-family: Georgia, serif; /* Fuente de texto principal */
   margin: 2; /* Elimina los márgenes por defecto */
   padding:4; /* Agrega los rellenos por defecto */
-  background: #451313; /* Color de fondo rojo 90 */
+  background: #451313; /* Color de fondo rojo oscuro */
 }
 
 header { /* Estilos para el encabezado */
