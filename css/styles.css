@@ -6,10 +6,10 @@ body { /* Estilos generales para toda la página */
 }
 
 header { /* Estilos para el encabezado */
-  background: #043959; /* Fondo azul 80 */
+  background: #043959; /* Fondo azul oscuro */
   color: white; /* Texto en color blanco */
   text-align: center; /* Centra el texto horizontalmente */
-  padding: 1rem; /* Relleno interno de 1 unidad rem */
+  padding: 3rem; /* Relleno interno de 3 unidad rem */
 }
 
 main { /* Estilos para el contenido principal */
@@ -36,18 +36,18 @@ h2 { /* Estilos para subtítulos */
   margin: 7px 3; /* Espacio vertical entre elementos */
   padding: 17px; /* Relleno interno */
   border-radius: 5px; /* Bordes redondeados */
-  border: 6px solid #f5e6ab; /* Borde amarillo 5 */
+  border: 6px solid #f5e6ab; /* Borde amarillo oscuro */
 }
 
 .comment-form button { /* Estilos específicos para los botones */
-  background: #3c434a; /* Fondo gris 70 */
+  background: #3c434a; /* Fondo gris oscuro */
   color: white; /* Texto en blanco */
   border: 2 ; /* con borde */
   cursor: cell; /* Cursor que indica que se pueden seleccionar celdas */
 }
 
 .comment-form button:hover { /* Efecto cuando se pasa el ratón sobre el botón */
-  background: #8c8f94; /* Cambia a gris 30 */
+  background: #8c8f94; /* Cambia a gris */
 }
 
 .comment-form .btn-delete { /* Botón de borrar comentarios */
