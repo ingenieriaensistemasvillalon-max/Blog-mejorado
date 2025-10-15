@@ -9,7 +9,7 @@ header { /* Estilos para el encabezado */
   background: #043959; /* Fondo azul oscuro */
   color: white; /* Texto en color blanco */
   text-align: center; /* Centra el texto horizontalmente */
-  padding: 3rem; /* Relleno interno de 3 unidad rem */
+  padding: 1rem; /* Relleno interno de 1 unidad rem */
 }
 
 main { /* Estilos para el contenido principal */
